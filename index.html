@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Tailwind CSS</title>
+  </head>
+  <body class="bg-black text-amber-50">
+    <div
+      class="flex justify-around items-center gap-4 h-[65px] bg-amber-950 mb-2.5"
+    >
+      <h1 class="text-3xl font-bold text-amber-600">LiCode30</h1>
+      <h2 class="text-3xl font-bold text-amber-100">Tailwind CSS</h2>
+    </div>
+    <div
+      class="flex flex-col items-center sm:flex-row sm:justify-around gap-1 bg-blue-50 text-black p-3.5 w-1/2 rounded-lg m-auto"
+    >
+      <div
+        class="flex justify-center items-center bg-amber-950 rounded-full size-[60px]"
+      >
+        <img src="imgs/icons8-account-50.png" alt="" />
+      </div>
+      <div class="text-center sm:text-left">
+        <h2 class="text-lg font-semibold">Tailwind CSS</h2>
+        <p class="font-medium text-gray-500">Frontend Developer</p>
+        <button
+          class="text-amber-950 font-semibold border-1 border-amber-950 px-2 py-1 rounded-full mt-1 hover:text-amber-50 hover:bg-amber-950 duration-1000 ease-in-out hover:cursor-pointer"
+        >
+          Message
+        </button>
+      </div>
+    </div>
+    <div class="grid grid-cols-2 grid-rows-7 md:grid-cols-3 gap-4 p-1 my-5">
+      <div class="rounded-lg bg-sky-500 p-4 row-span-3">01</div>
+      <div class="rounded-lg bg-sky-500 p-4 md:row-span-2">02</div>
+      <div class="rounded-lg bg-sky-500 p-4 row-span-2">03</div>
+      <div class="rounded-lg bg-sky-500 p-4 col-span-2">04</div>
+      <div class="rounded-lg bg-sky-500 p-4 col-span-2">05</div>
+      <div class="rounded-lg bg-sky-500 p-4 col-span-2 row-span-2 order-1">
+        06
+      </div>
+    </div>
+
+    <div class="flex justify-center gap-2.5 items-center">
+      <button
+        class="w-50 h-10 bg-violet-600 hover:bg-violet-950 px-2 py-1 rounded-full focus:outline-2 focus:outline-offset-4 focus:outline-violet-950 active:bg-violet-600"
+      >
+        Read
+      </button>
+      <p>
+        <a
+          href="https://tailwindcss.com/"
+          target="_blank"
+          class="underline text-violet-500 visited:text-violet-950 visited:no-underline"
+          >test link</a
+        >
+      </p>
+      <p>
+        <a
+          href="https://test.com/"
+          target="_blank"
+          class="underline text-violet-500 visited:text-violet-950 visited:no-underline"
+          >test link</a
+        >
+      </p>
+    </div>
+    <ul
+      class="my-5 py-2.5 w-full bg-amber-950 text-amber-600 flex flex-col justify-center items-center gap-2"
+    >
+      <li
+        class="font-bold odd:text-violet-950 even:text-sky-500 selection:bg-amber-400 selection:text-amber-950"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing
+      </li>
+      <li
+        class="font-bold odd:text-violet-950 even:text-sky-500 selection:bg-amber-400 selection:text-amber-950"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing
+      </li>
+      <li
+        class="font-bold odd:text-violet-950 even:text-sky-500 selection:bg-amber-400 selection:text-amber-950"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing
+      </li>
+      <li
+        class="font-bold odd:text-violet-950 even:text-sky-500 selection:bg-amber-400 selection:text-amber-950"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing
+      </li>
+      <li
+        class="font-bold odd:text-violet-950 even:text-sky-500 selection:bg-amber-400 selection:text-amber-950"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing
+      </li>
+      <li
+        class="font-bold odd:text-violet-950 even:text-sky-500 selection:bg-amber-400 selection:text-amber-950"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing
+      </li>
+      <li
+        class="font-bold odd:text-violet-950 even:text-sky-500 selection:bg-amber-400 selection:text-amber-950"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing
+      </li>
+      <li
+        class="font-bold odd:text-violet-950 even:text-sky-500 selection:bg-amber-400 selection:text-amber-950"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing
+      </li>
+      <li
+        class="font-bold odd:text-violet-950 even:text-sky-500 selection:bg-amber-400 selection:text-amber-950"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing
+      </li>
+      <li
+        class="font-bold odd:text-violet-950 even:text-sky-500 selection:bg-amber-400 selection:text-amber-950"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing
+      </li>
+      <li
+        class="font-bold selection:bg-amber-400 selection:text-amber-950 last:font-black last:text-3xl last:text-amber-200"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing
+      </li>
+    </ul>
+
+    <ul class="nth-5:text-3xl bg-amber-500">
+      <li class="nth-5:text-3xl">test</li>
+      <li class="nth-5:text-3xl">test</li>
+      <li class="nth-5:text-3xl">test</li>
+      <li class="nth-5:text-3xl">test</li>
+      <li class="nth-5:text-3xl">test</li>
+      <li class="nth-5:text-3xl">test</li>
+      <li class="nth-5:text-3xl">test</li>
+    </ul>
+
+    <div>
+      <p class="text-primary">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut corrupti
+        voluptatibus dolores sit mollitia iste maiores a voluptatum numquam,
+        optio aliquid quibusdam natus ad nostrum! Eum nesciunt nostrum corporis
+        reiciendis!
+      </p>
+      <p class="text-secondary font-roboto text-3xl">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut corrupti
+        voluptatibus dolores sit mollitia iste maiores a voluptatum numquam,
+        optio aliquid quibusdam natus ad nostrum! Eum nesciunt nostrum corporis
+        reiciendis!
+      </p>
+    </div>
+    <div class="text-2xl">
+      <p class="text-[#33ac7f]">Lorem ipsum dolor sit amet</p>
+      <p>Lorem ipsum dolor sit amet</p>
+      <p>Lorem ipsum dolor sit amet</p>
+      <p>Lorem ipsum dolor sit amet</p>
+    </div>
+    <p class="text-2xl my-2.5">
+      I’m Derek, an astro-engineer based in Tattooine. I like to build X-Wings
+      at <a class="underline decoration-sky-500">My Company, Inc</a>. Outside of
+      work, I like to
+      <a class="underline decoration-pink-500">watch pod-racing</a> and have
+      <a class="underline decoration-indigo-500">light-saber</a> fights.
+    </p>
+    <div class="grid grid-cols-2 gap-4">
+      <div
+        class="size-24 border-4 border-t-10 border-indigo-200 border-t-indigo-500"
+      ></div>
+      <div class="size-24 border-4 border-indigo-200 border-r-indigo-500"></div>
+      <div class="size-24 border-4 border-indigo-200 border-b-indigo-500"></div>
+      <div class="size-24 border-4 border-indigo-200 border-l-indigo-500"></div>
+    </div>
+
+    <div class="flex gap-4 my-5">
+      <button class="bg-cyan-500 shadow-lg shadow-cyan-500/50 ...">
+        Subscribe
+      </button>
+      <button class="bg-blue-500 shadow-lg shadow-blue-500/50 ...">
+        Subscribe
+      </button>
+      <button class="bg-indigo-500 shadow-lg shadow-indigo-500/50 ...">
+        Subscribe
+      </button>
+    </div>
+    <div class="flex justify-center items-center m-5">
+      <div
+        class="size-100 bg-violet-400 rounded-3xl inset-shadow-sm inset-shadow-amber-800 shadow-lg shadow-amber-900"
+      ></div>
+    </div>
+    <div class="button">
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores sint
+        ab modi molestiae officiis aperiam fuga aliquam. Ea laborum doloremque
+        laudantium neque, adipisci aliquid iusto sit? Nulla, corrupti.
+        Consequatur, obcaecati.
+      </p>
+    </div>
+    <div>
+      <label>
+        <input type="checkbox" checked />
+        Browser default
+      </label>
+      <label>
+        <input class="accent-pink-500" type="checkbox" checked />
+        Customized
+      </label>
+    </div>
+    <div class="button">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur,
+        sapiente perferendis! Ipsa, labore natus asperiores fuga commodi quo
+        quisquam voluptatem expedita cumque omnis animi quis veniam quam.
+        Debitis, veniam nihil!
+      </p>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
